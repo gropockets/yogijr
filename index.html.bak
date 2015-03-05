@@ -58,31 +58,31 @@
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <!--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">-->
-                <!--<ul class="nav navbar-nav navbar-right">-->
-                    <!--<li class="hidden">-->
-                        <!--<a href="#page-top"></a>-->
-                    <!--</li>-->
-                    <!--<li>-->
-                        <!--<a class="page-scroll" href="#about">About</a>-->
-                    <!--</li>-->
-                    <!--<li>-->
-                        <!--<a class="page-scroll" href="#uses">Uses</a>-->
-                    <!--</li>-->
-                     <!--<li>-->
-                        <!--<a class="page-scroll" href="#features">Features</a>-->
-                    <!--</li>-->
-                   <!--<li>-->
-                        <!--<a class="page-scroll" href="#design">Design</a>-->
-                    <!--</li>-->
-                    <!--<li>-->
-                        <!--<a class="page-scroll" href="#buy">Buy</a>-->
-                    <!--</li>-->
-                    <!--<li>-->
-                        <!--<a class="page-scroll" href="#contact">Contact</a>-->
-                    <!--</li>-->
-                <!--</ul>-->
-            <!--</div>-->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#uses">Uses</a>
+                    </li>
+                     <li>
+                        <a class="page-scroll" href="#features">Features</a>
+                    </li>
+                   <li>
+                        <a class="page-scroll" href="#design">Design</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#buy">Buy</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
@@ -99,29 +99,28 @@
         </div>
     </header>
 
-
-    <!--[> About Section <]-->
-    <!--<section id="about">-->
-        <!--<div class="container">-->
-            <!--<div class="row">-->
-                <!--<div class="col-lg-12 text-center">-->
-                    <!--<h2 class="section-heading">About</h2>-->
-                    <!--<h3 class="section-subheading text-muted">Cultivate your Surroundings.</h3>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="row">-->
-                <!--<div class="col-lg-5 col-sm-6">-->
-		    <!--[><hr class="section-heading-spacer"><]-->
-                    <!--<div class="clearfix"></div>-->
-                    <!--<h3 class="text-heading">Vertical gardening just got a whole lot more fun</h2>-->
-                    <!--<p class="lead text-muted">Bring a striking splash of colour to a bare fence or wall with GroPockets®.  Simply screw these high performance, durable planters to walls and fences to create a living wall of flowers, salads and herbs.  </p>-->
-		    <!--<p class="lead text-muted">Each planter has 3 pockets which provides ample space for 6 plants. The top 2 pockets feature drainage holes that help to water the plants below.</p>-->
-                <!--</div>-->
-		<!--<div class="col-lg-5 col-lg-offset-2 col-sm-6">-->
-                    <!--<img class="img-responsive" src="img/gropockets-demo-crop.jpg" alt="">-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About</h2>
+                    <h3 class="section-subheading text-muted">Cultivate your Surroundings.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+		    <!--<hr class="section-heading-spacer">-->
+                    <div class="clearfix"></div>
+                    <h3 class="text-heading">Vertical gardening just got a whole lot more fun</h2>
+                    <p class="lead text-muted">Bring a striking splash of colour to a bare fence or wall with GroPockets®.  Simply screw these high performance, durable planters to walls and fences to create a living wall of flowers, salads and herbs.  </p>
+		    <p class="lead text-muted">Each planter has 3 pockets which provides ample space for 6 plants. The top 2 pockets feature drainage holes that help to water the plants below.</p>
+                </div>
+		<div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/gropockets-demo-crop.jpg" alt="">
+                </div>
+            </div>
+        </div>
  
         <!--<div class="container">-->
             <!--<div class="row">-->
@@ -200,139 +199,138 @@
                 <!--</div>-->
             <!--</div>-->
         <!--</div>-->
-    <!--</section>-->
+    </section>
+
+    <!-- Uses Section -->
+    <section id="uses" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Uses</h2>
+                    <h3 class="section-subheading text-muted">Transform any wall, fence, or shed into a lush vertical garden.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/uses-concrete.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Concrete walls</h4>
+                        <p class="text-muted">Securely mounts to concrete walls</p>
+                        <!--<ul class="list-inline social-buttons">-->
+                            <!--<li><a href="#"><i class="fa fa-twitter"></i></a>-->
+                            <!--</li>-->
+                            <!--<li><a href="#"><i class="fa fa-facebook"></i></a>-->
+                            <!--</li>-->
+                            <!--<li><a href="#"><i class="fa fa-linkedin"></i></a>-->
+                            <!--</li>-->
+                        <!--</ul>-->
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/uses-wall.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Wooden walls</h4>
+                        <p class="text-muted">Mount on wooden sheds or houses</p>
+                        <!--<ul class="list-inline social-buttons">-->
+                            <!--<li><a href="#"><i class="fa fa-twitter"></i></a>-->
+                            <!--</li>-->
+                            <!--<li><a href="#"><i class="fa fa-facebook"></i></a>-->
+                            <!--</li>-->
+                            <!--<li><a href="#"><i class="fa fa-linkedin"></i></a>-->
+                            <!--</li>-->
+                        <!--</ul>-->
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/uses-fence.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Attaches easily to fences</h4>
+                        <p class="text-muted">Mount on fences and reinvent your garden</p>
+                        <!--<ul class="list-inline social-buttons">-->
+                            <!--<li><a href="#"><i class="fa fa-twitter"></i></a>-->
+                            <!--</li>-->
+                            <!--<li><a href="#"><i class="fa fa-facebook"></i></a>-->
+                            <!--</li>-->
+                            <!--<li><a href="#"><i class="fa fa-linkedin"></i></a>-->
+                            <!--</li>-->
+                        <!--</ul>-->
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
-    <!--[> Uses Section <]-->
-    <!--<section id="uses" class="bg-light-gray">-->
-        <!--<div class="container">-->
-            <!--<div class="row">-->
-                <!--<div class="col-lg-12 text-center">-->
-                    <!--<h2 class="section-heading">Uses</h2>-->
-                    <!--<h3 class="section-subheading text-muted">Transform any wall, fence, or shed into a lush vertical garden.</h3>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="row">-->
-                <!--<div class="col-sm-4">-->
-                    <!--<div class="team-member">-->
-                        <!--<img src="img/uses-concrete.jpg" class="img-responsive img-circle" alt="">-->
-                        <!--<h4>Concrete walls</h4>-->
-                        <!--<p class="text-muted">Securely mounts to concrete walls</p>-->
-                        <!--[><ul class="list-inline social-buttons"><]-->
-                            <!--[><li><a href="#"><i class="fa fa-twitter"></i></a><]-->
-                            <!--[></li><]-->
-                            <!--[><li><a href="#"><i class="fa fa-facebook"></i></a><]-->
-                            <!--[></li><]-->
-                            <!--[><li><a href="#"><i class="fa fa-linkedin"></i></a><]-->
-                            <!--[></li><]-->
-                        <!--[></ul><]-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!--<div class="col-sm-4">-->
-                    <!--<div class="team-member">-->
-                        <!--<img src="img/uses-wall.jpg" class="img-responsive img-circle" alt="">-->
-                        <!--<h4>Wooden walls</h4>-->
-                        <!--<p class="text-muted">Mount on wooden sheds or houses</p>-->
-                        <!--[><ul class="list-inline social-buttons"><]-->
-                            <!--[><li><a href="#"><i class="fa fa-twitter"></i></a><]-->
-                            <!--[></li><]-->
-                            <!--[><li><a href="#"><i class="fa fa-facebook"></i></a><]-->
-                            <!--[></li><]-->
-                            <!--[><li><a href="#"><i class="fa fa-linkedin"></i></a><]-->
-                            <!--[></li><]-->
-                        <!--[></ul><]-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!--<div class="col-sm-4">-->
-                    <!--<div class="team-member">-->
-                        <!--<img src="img/uses-fence.jpg" class="img-responsive img-circle" alt="">-->
-                        <!--<h4>Attaches easily to fences</h4>-->
-                        <!--<p class="text-muted">Mount on fences and reinvent your garden</p>-->
-                        <!--[><ul class="list-inline social-buttons"><]-->
-                            <!--[><li><a href="#"><i class="fa fa-twitter"></i></a><]-->
-                            <!--[></li><]-->
-                            <!--[><li><a href="#"><i class="fa fa-facebook"></i></a><]-->
-                            <!--[></li><]-->
-                            <!--[><li><a href="#"><i class="fa fa-linkedin"></i></a><]-->
-                            <!--[></li><]-->
-                        <!--[></ul><]-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="row">-->
-                <!--<div class="col-lg-8 col-lg-offset-2 text-center">-->
-                    <!--<p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</section>-->
+    <!-- Features Section -->
+    <section id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Features</h2>
+                    <h3 class="section-subheading text-muted">Your friends will be green with envy.</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-recycle fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">100% recycled material</h4>
+                    <p class="text-muted">Constructed from 100% recycled polypropalyne, you can feel good about purchasing a product that reduces the burden on landfills.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-paw fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Safe, Non-toxic</h4>
+                    <p class="text-muted">Hang your GroPockets with piece of mind and enjoy the fruits of your labor knowing that they are constructed from safe and non-toxic materials.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-cloud fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Built to last</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-
-    <!--[> Features Section <]-->
-    <!--<section id="features">-->
-        <!--<div class="container">-->
-            <!--<div class="row">-->
-                <!--<div class="col-lg-12 text-center">-->
-                    <!--<h2 class="section-heading">Features</h2>-->
-                    <!--<h3 class="section-subheading text-muted">Your friends will be green with envy.</h3>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="row text-center">-->
-                <!--<div class="col-md-4">-->
-                    <!--<span class="fa-stack fa-4x">-->
-                        <!--<i class="fa fa-circle fa-stack-2x text-primary"></i>-->
-                        <!--<i class="fa fa-recycle fa-stack-1x fa-inverse"></i>-->
-                    <!--</span>-->
-                    <!--<h4 class="service-heading">100% recycled material</h4>-->
-                    <!--<p class="text-muted">Constructed from 100% recycled polypropalyne, you can feel good about purchasing a product that reduces the burden on landfills.</p>-->
-                <!--</div>-->
-                <!--<div class="col-md-4">-->
-                    <!--<span class="fa-stack fa-4x">-->
-                        <!--<i class="fa fa-circle fa-stack-2x text-primary"></i>-->
-                        <!--<i class="fa fa-paw fa-stack-1x fa-inverse"></i>-->
-                    <!--</span>-->
-                    <!--<h4 class="service-heading">Safe, Non-toxic</h4>-->
-                    <!--<p class="text-muted">Hang your GroPockets with piece of mind and enjoy the fruits of your labor knowing that they are constructed from safe and non-toxic materials.</p>-->
-                <!--</div>-->
-                <!--<div class="col-md-4">-->
-                    <!--<span class="fa-stack fa-4x">-->
-                        <!--<i class="fa fa-circle fa-stack-2x text-primary"></i>-->
-                        <!--<i class="fa fa-cloud fa-stack-1x fa-inverse"></i>-->
-                    <!--</span>-->
-                    <!--<h4 class="service-heading">Built to last</h4>-->
-                    <!--<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</section>-->
-
-    <!--[> Design Section <]-->
-    <!--<section id="design" class="bg-light-gray">-->
-	<!--[><div class="content-section-b"><]-->
-        <!--<div class="container">-->
-            <!--<div class="row">-->
-                <!--<div class="col-lg-12 text-center">-->
-                    <!--<h2 class="section-heading">Design</h2>-->
-                    <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="row">-->
-                <!--<div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">-->
-		    <!--[><hr class="section-heading-spacer"><]-->
-                    <!--<div class="clearfix"></div>-->
-                    <!--<h3 class="text-heading">Built to last</h3>-->
-                    <!--<p class="lead text-muted">The top two pockets of your GroPocket contain drainage holes allowing water to drip to lower pockets.  Stitching is reinforced to ensure your plants stay safely tucked into the GroPocket.</p>-->
-                <!--</div>-->
-                <!--<div class="col-lg-5 col-sm-pull-6 col-sm-6">-->
-		    <!--<img class="img-responsive" src="img/weaved-fabric.jpg" alt="">-->
-                    <!--[><img class="img-responsive" src="img/gropockets-demo-inset.jpg" alt=""><]-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-        <!--[> /.container <]-->
-    <!--[></div><]-->
-    <!--[> /.content-section-b <]-->
-    <!--</section>-->
+    <!-- Design Section -->
+    <section id="design" class="bg-light-gray">
+	<!--<div class="content-section-b">-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Design</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+		    <!--<hr class="section-heading-spacer">-->
+                    <div class="clearfix"></div>
+                    <h3 class="text-heading">Built to last</h3>
+                    <p class="lead text-muted">The top two pockets of your GroPocket contain drainage holes allowing water to drip to lower pockets.  Stitching is reinforced to ensure your plants stay safely tucked into the GroPocket.</p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6 col-sm-6">
+		    <img class="img-responsive" src="img/weaved-fabric.jpg" alt="">
+                    <!--<img class="img-responsive" src="img/gropockets-demo-inset.jpg" alt="">-->
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    <!--</div>-->
+    <!-- /.content-section-b -->
+    </section>
 
     <!-- Uses Grid Section -->
     <!--<section id="uses" class="bg-light-gray">-->
@@ -438,7 +436,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h3>Coming soon to Amazon Marketplace</h3>
+                    <h3>Get GroPockets on Amazon Marketplace</h3>
                     <h4>Eligable for free super-saver shipping.</h4>
                     <!--<a href="#" class="btn btn-lg btn-light">Click Me!</a>-->
                     <!--<a href="#" class="btn btn-lg btn-dark">Look at Me!</a>-->
@@ -447,23 +445,22 @@
         </div>
     </aside>
 
-
-    <!--[> Buy Section <]-->
-    <!--<section id="buy" class="bg-light-gray">-->
-	<!--[><div class="content-section-b"><]-->
-        <!--<div class="container">-->
-            <!--<div class="row">-->
-                <!--<div class="col-lg-10 col-lg-offset-1 text-center">-->
-                    <!--<h2 class="section-heading">Buy</h2>-->
-                    <!--<h3 class="section-subheading text-muted">Get GroPockets on Amazon Marketplace</h3>-->
-                        <!--<iframe style="width: 120px; height: 240px;" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=US&amp;source=ac&amp;ref=tf_til&amp;ad_type=product_link&amp;tracking_id=indiebookk-20&amp;marketplace=amazon&amp;region=US&amp;placement=B00ELUROPE&amp;asins=B00ELUROPE&amp;linkId=HBUZIYJ47UVYTLLK&amp;show_border=true&amp;link_opens_in_new_window=true" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" height="150" width="300"><br /> </iframe>-->
-                <!--</div>-->
-           <!--</div>-->
-        <!--</div>-->
-        <!--[> /.container <]-->
-    <!--[></div><]-->
-    <!--[> /.content-section-b <]-->
-    <!--</section>-->
+    <!-- Buy Section -->
+    <section id="buy" class="bg-light-gray">
+	<!--<div class="content-section-b">-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2 class="section-heading">Buy</h2>
+                    <h3 class="section-subheading text-muted">Get GroPockets on Amazon Marketplace</h3>
+    		    <iframe style="width: 120px; height: 240px;" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=US&amp;source=ac&amp;ref=tf_til&amp;ad_type=product_link&amp;tracking_id=indiebookk-20&amp;marketplace=amazon&amp;region=US&amp;placement=B00ELUROPE&amp;asins=B00ELUROPE&amp;linkId=HBUZIYJ47UVYTLLK&amp;show_border=true&amp;link_opens_in_new_window=true" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" height="150" width="300"><br /> </iframe>
+                </div>
+           </div>
+        </div>
+        <!-- /.container -->
+    <!--</div>-->
+    <!-- /.content-section-b -->
+    </section>
 
     
     <section id="contact">

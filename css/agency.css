@@ -66,7 +66,8 @@ h6 {
 }
 
 .bg-green {
-    background-color: #80cc28;
+    /*background-color: #80cc28;*/
+    background-color: #478500;
 }
 
 .bg-darkest-gray {
@@ -698,7 +699,13 @@ aside.clients {
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/greenwall-telegraph-dark.jpg);
+    background-image: url(../img/greenwall-telegraph-dark-strip.jpg);
+    /*background-image: url(../img/map-image.png);*/
+    /*background-size: 100%*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
