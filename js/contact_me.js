@@ -1,5 +1,6 @@
 $(function() {
 
+	
     $("input,textarea").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {
@@ -17,7 +18,18 @@ $(function() {
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
+
+			// EP: Testing jQuery("form")
+			var mydata = $form.serialize();	
+			mydata = mydata + '&ml-submit=1&ajax=1';
+						
             $.ajax({
+                type: 'GET',
+                url: '//app.mailerlite.com/webforms/submit/z5g0k6',
+                data: mydata,
+                //data: 'fields%5Bname%5D=Eric&fields%5Bemail%5D=erichpowell%40gmail.com&fields%5Bphone%5D=0305+444+4444&fields%5Blikes%5D=&ml-submit=1&ajax=1',
+                dataType: 'jsonp',
+                /* EP - Adjust for MailerLite
                 url: "././mail/contact_me.php",
                 type: "POST",
                 data: {
@@ -27,6 +39,7 @@ $(function() {
                     message: message
                 },
                 cache: false,
+                */
                 success: function() {
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
