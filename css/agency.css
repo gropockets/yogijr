@@ -1066,6 +1066,26 @@ ul.social-buttons li a:active {
     opacity: 0;
 }
 
+.subscribe {
+  line-height: 1.425;
+  padding: 20px 0px; 
+}
+
+.subscribe h1 {
+  
+}
+
+.subscribe-email { 
+  width: 100%;
+  font-size: 18px;
+  height: auto;
+  padding-left: 20px;
+}
+
+.subscribe-button {
+  width: 100%;
+}
+
 ::-moz-selection {
     text-shadow: none;
     background: #3d67b1;
