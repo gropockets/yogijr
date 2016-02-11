@@ -1086,6 +1086,16 @@ ul.social-buttons li a:active {
   width: 100%;
 }
 
+/* Meke glyphicon appropriate size (font-size) and centered in the textbox.  
+ * Size of textbox is auto based on adjacent button, which is 67px
+*/
+.subscribe .glyphicon { 
+  font-size: 18px;
+  width: 67px;
+  height: 67px;
+  line-height: 67px;
+}
+
 ::-moz-selection {
     text-shadow: none;
     background: #3d67b1;
