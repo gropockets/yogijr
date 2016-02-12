@@ -244,14 +244,14 @@
             It comes with a lot of new features, easy to follow videos and images. Subscribe now!
           </p>
           <div class="subscribe wow fadeInUp">
-            <form  data-toggle="validator" data-disable="false" role="form" action="assets/subscribe.php" method="post">
+            <form  id="subscribe-line" data-toggle="validator" data-disable="false" role="form" action="assets/subscribe.php" method="post">
               <div class="row">
                 <div class="col-sm-8">
                   <div class="form-group has-feedback">
                     <label class="sr-only" for="subscribe-email">Email address</label>
                     <!-- pattern="[a-z0-9!#$%&'*+/=?^_`{|}~.-]+@[a-z0-9-]+(\.[a-z0-9-]+)*" -->
                     <input pattern="[A-Za-z0-9._%+-]{3,}@[a-zA-Z]{3,}([.]{1}[a-zA-Z]{2,}|[.]{1}[a-zA-Z]{2,}[.]{1}[a-zA-Z]{2,})"
-                           name="email" placeholder="Enter your email..." class="subscribe subscribe-email form-control input-lg" 
+                           name="fields[email]" placeholder="Enter your email..." class="subscribe subscribe-email form-control input-lg" 
                            id="subscribe-email" data-error="Bruh, that email address is invalid" required>
                     <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                     <!-- <span class="help-block with-errors">Hey look, this one has feedback icons!</span> -->
@@ -608,14 +608,17 @@
   <script src="js/cbpAnimatedHeader.js"></script>
 
   <!-- Contact Form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
+  <!--<script src="js/jqBootstrapValidation.js"></script>-->
+  <!--<script src="js/contact_me.js"></script>-->
   
   <!-- Boostrap Validator -->
   <script src="js/validator.min.js"></script>
     
   <!-- Custom Theme JavaScript -->
   <script src="js/agency.js"></script>
+
+  <!-- Mailerlite AJAX submit -->
+  <script src="js/mailerlitesubmit.js"></script>
 
   <!-- Make Buttons Jingle -->
   <script src="js/wow.min.js"></script>

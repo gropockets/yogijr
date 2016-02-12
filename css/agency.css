@@ -1084,6 +1084,7 @@ ul.social-buttons li a:active {
 
 .subscribe-button {
   width: 100%;
+  padding: 20px 10px;
 }
 
 /* Meke glyphicon appropriate size (font-size) and centered in the textbox.  
