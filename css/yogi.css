@@ -1,0 +1,151 @@
+@font-face {
+  font-family: 'BPreplayBold';
+  src: url('../fonts/BPreplay/BPreplayBold/BPreplayBold.eot');
+  src: url('../fonts/BPreplay/BPreplayBold/BPreplayBold.eot?#iefix') format('embedded-opentype'), 
+  url('../fonts/BPreplay/BPreplayBold/BPreplayBold.woff') format('woff'), 
+  url('../fonts/BPreplay/BPreplayBold/BPreplayBold.ttf') format('truetype'), 
+  url('../fonts/BPreplay/BPreplayBold/BPreplayBold.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'BPreplay';
+  src: url('../fonts/BPreplay/BPreplay/BPreplay.eot');
+  src: url('../fonts/BPreplay/BPreplay/BPreplay.eot?#iefix') format('embedded-opentype'), 
+  url('../fonts/BPreplay/BPreplay/BPreplay.woff') format('woff'), 
+  url('../fonts/BPreplay/BPreplay/BPreplay.ttf') format('truetype'), 
+  url('../fonts/BPreplay/BPreplay/BPreplay.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'Delicious-Heavy';
+  src: url('../fonts/Delicious/Delicious-Heavy/Delicious-Heavy.eot');
+  src: url('../fonts/Delicious/Delicious-Heavy/Delicious-Heavy.eot?#iefix') format('embedded-opentype'), 
+  url('../fonts/Delicious/Delicious-Heavy/Delicious-Heavy.woff') format('woff'), 
+  url('../fonts/Delicious/Delicious-Heavy/Delicious-Heavy.ttf') format('truetype'), 
+  url('../fonts/Delicious/Delicious-Heavy/Delicious-Heavy.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'Delicious-Bold';
+  src: url('../fonts/Delicious/Delicious-Bold/Delicious-Bold.eot');
+  src: url('../fonts/Delicious/Delicious-Bold/Delicious-Bold.eot?#iefix') format('embedded-opentype'), 
+  url('../fonts/Delicious/Delicious-Bold/Delicious-Bold.woff') format('woff'), 
+  url('../fonts/Delicious/Delicious-Bold/Delicious-Bold.ttf') format('truetype'), 
+  url('../fonts/Delicious/Delicious-Bold/Delicious-Bold.svg') format('svg');
+  url('../fonts/Delicious/Delicious-Bold/Delicious-Bold.otf');
+}
+
+@font-face {
+  font-family: 'Delicious-Italic';
+  src: url('../fonts/Delicious/Delicious-Italic/Delicious-Italic.eot');
+  src: url('../fonts/Delicious/Delicious-Italic/Delicious-Italic.eot?#iefix') format('embedded-opentype'), 
+  url('../fonts/Delicious/Delicious-Italic/Delicious-Italic.woff') format('woff'), 
+  url('../fonts/Delicious/Delicious-Italic/Delicious-Italic.ttf') format('truetype'), 
+  url('../fonts/Delicious/Delicious-Italic/Delicious-Italic.svg') format('svg');
+  url('../fonts/Delicious/Delicious-Italic/Delicious-Italic.otf');
+}
+
+@font-face {
+  font-family: 'Delicious-BoldItalic';
+  src: url('../fonts/Delicious/Delicious-BoldItalic/Delicious-BoldItalic.eot');
+  src: url('../fonts/Delicious/Delicious-BoldItalic/Delicious-BoldItalic.eot?#iefix') format('embedded-opentype'), 
+  url('../fonts/Delicious/Delicious-BoldItalic/Delicious-BoldItalic.woff') format('woff'), 
+  url('../fonts/Delicious/Delicious-BoldItalic/Delicious-BoldItalic.ttf') format('truetype'), 
+  url('../fonts/Delicious/Delicious-BoldItalic/Delicious-BoldItalic.svg') format('svg');
+  url('../fonts/Delicious/Delicious-BoldItalic/Delicious-BoldItalic.otf');
+}
+
+@font-face {
+  font-family: 'Delicious-Roman';
+  src: url('../fonts/Delicious/Delicious-Roman/Delicious-Roman.eot');
+  src: url('../fonts/Delicious/Delicious-Roman/Delicious-Roman.eot?#iefix') format('embedded-opentype'), 
+  url('../fonts/Delicious/Delicious-Roman/Delicious-Roman.woff') format('woff'), 
+  url('../fonts/Delicious/Delicious-Roman/Delicious-Roman.ttf') format('truetype'), 
+  url('../fonts/Delicious/Delicious-Roman/Delicious-Roman.svg') format('svg');
+  url('../fonts/Delicious/Delicious-Roman/Delicious-Roman.otf');
+}
+
+
+body {
+    font-family: Delicious-Roman;
+    /*EP: Pending removal*/
+    overflow-x: hidden;
+}
+
+
+section h2.heading {
+    font-family: Delicious-Bold;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+    color: #3d67b1;
+}
+
+section h3.subheading {
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+section h4.item-heading {
+    font-family: Delicious-Bold;
+    font-size: 20px;
+    margin: 20px 0px 12px;
+    /*color: #3d67b1;*/
+}
+
+
+/*Relax the top/bottom padding from BS 15px to accomodate logo*/
+nav img.navbar-brand { 
+	padding: 10px 15px;
+}
+
+
+@media(min-width:768px) {
+
+    .navbar-default {
+        padding: 25px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    /*EP - Counteract 0px margin in bootstrap*/
+    .navbar-nav { 
+	margin: 7.5px -15px;
+    }
+
+    .navbar-default .navbar-brand {
+	height: 70px;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+	padding: 0px 15px;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        /*background-color: #222;*/
+        /*background-color: #927500;*/
+        /*background-color: #478500;*/
+	box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1) !important;
+	z-index: 99999;
+        background-color: #fff;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+	-webkit-transform: scale(0.8);
+	transform: scale(0.8);
+    }
+}
+
