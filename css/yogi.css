@@ -72,6 +72,11 @@ body {
     overflow-x: hidden;
 }
 
+@media(min-width:768px) {
+    section {
+        padding: 100px 0 100px;
+    }
+}
 
 section h2.heading {
     font-family: Delicious-Bold;
@@ -102,6 +107,35 @@ section h4.item-heading {
 /*Relax the top/bottom padding from BS 15px to accomodate logo*/
 nav img.navbar-brand { 
 	padding: 10px 15px;
+}
+
+
+/*Circle Features Showcase*/
+
+.circle-feature {
+    /*EP Section class already provides enough padding*/
+    /*margin-bottom: 50px;*/
+    text-align: center;
+}
+
+.circle-feature img {
+    margin: 0 auto;
+    border: 7px solid #3d67b1;
+}
+
+.circle-feature h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+
+.circle-feature p {
+    margin-top: 0;
+}
+
+
+.bullet-point { 
+	margin: 25px 0px;
 }
 
 
