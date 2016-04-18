@@ -72,11 +72,6 @@ body {
     overflow-x: hidden;
 }
 
-@media(min-width:768px) {
-    section {
-        padding: 100px 0 100px;
-    }
-}
 
 section h2.heading {
     font-family: Delicious-Bold;
@@ -139,7 +134,28 @@ nav img.navbar-brand {
 }
 
 
+.navbar-default {
+	background-color: #fff;
+}
+
+
+.navbar-default .navbar-nav>.active>a {
+	border-radius: 0;
+	color: #fff;
+	background-color: #3d67b1;
+}
+
+.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-family: "Delicious-Bold";
+    color: #3d67b1;
+    }
+
 @media(min-width:768px) {
+
+    section {
+        padding: 100px 0 100px;
+    }
 
     .navbar-default {
         padding: 25px 0;
