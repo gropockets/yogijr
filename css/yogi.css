@@ -9,6 +9,24 @@ p {
 	line-height: 1.75;
 }
 
+.alternative-font {
+	/* yogi-blue*/
+	color: #00adee;  
+	/* porto blue */
+	/*color: #0088cc;*/
+	/*font-family: "BPreplayBold";*/
+	font-family: "Shadows Into Light", cursive;
+	font-size: 1.6em;
+}
+
+p .alternative-font {
+	display: inline-block;
+	margin-top: -15px;
+	position: relative;
+	top: 3px;
+	margin-bottom: -6px;
+}
+
 section h2.heading {
     font-family: Delicious-Bold;
     text-transform: uppercase;
@@ -186,6 +204,9 @@ header {
     margin-top: 0;
 }
 
+img .aerial-mat { 
+	height: 325px;
+}
 
 .bullet-point { 
 	margin: 25px 0px;
