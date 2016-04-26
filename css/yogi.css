@@ -61,6 +61,10 @@ aside.amazon {
 }
 
 
+.blue-bg { 
+	background-color: #00adee;
+}
+
 .btn-xl {
 	padding: 18px 35px;
 	border-color: #3d67b1;
@@ -195,13 +199,17 @@ header {
 }
 
 .circle-feature h4 {
-    margin-top: 25px;
-    margin-bottom: 0;
-    text-transform: none;
+	font-family: "Shadows Into Light", cursive;
+	font-size: 26px;
+	text-transform: none;
+	color: #fff;
+	margin-top: 25px;
+	margin-bottom: 10px;
 }
 
 .circle-feature p {
-    margin-top: 0;
+	margin-top: 0;
+	color: #fff;
 }
 
 img .aerial-mat { 
