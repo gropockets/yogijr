@@ -52,6 +52,19 @@ section h4.item-heading {
     /*color: #3d67b1;*/
 }
 
+section#contact {
+    background-color: #222;
+    background-image: url(../img/blurred_rolls.jpg);
+    /* background-image: url(../img/map-image.png); */
+    /* background-size: 100%; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 aside.amazon {
 	color: #fff;
 	background-color: #00adee;
