@@ -25,6 +25,16 @@ p {
 	font-size: 1.2em;
 }
 
+.arrow {
+	background: transparent url(../img/arrow.png) no-repeat 0 0;
+	display: inline-block;
+	position: relative;
+	background-size: contain;
+	width: 45px;
+	height: 81px;
+}
+
+
 h2 .alternative-font {
 	font-size: 1.2em;
 }
@@ -99,6 +109,12 @@ section#wheretobuy .heading {
 
 .blue-bg { 
 	background-color: #00adee;
+}
+
+.pinwheel-bg {
+	background-image: url(../img/pinwheel-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .btn-xl {
@@ -219,7 +235,15 @@ header {
 		padding: 8px 110px 0px;
 		margin-bottom: 25px;
 	}
+
+	.intro-text h1.intro-slogan {
+		color: #00adee;
+		font-family: "BPreplayBold";
+		font-size: 45px;
+	}
 }
+
+
 
 /*Circle Features Showcase*/
 
