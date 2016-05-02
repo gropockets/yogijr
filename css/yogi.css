@@ -5,6 +5,7 @@ body {
 	overflow-x: hidden;
 }
 
+
 p {
 	font-size: 18px;
 	line-height: 1.75;
@@ -111,6 +112,10 @@ section#wheretobuy .heading {
 	background-color: #00adee;
 }
 
+#features h2.heading { 
+	color: #fff;
+}
+
 .pinwheel-bg {
 	background-image: url(../img/pinwheel-bg.png);
 	background-repeat: no-repeat;
@@ -130,10 +135,17 @@ section#wheretobuy .heading {
 	background-color: #3d67b1;
 }
 
+.btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
+	border-color: #00adee;
+	color: #fff;
+	background-color: #00adee;
+}
 
 
 .navbar-default {
-	background-color: #fff;
+	/*background-color: #fff;*/
+	background-color: #3d67b1;
+	color: #fff;
 }
 
 
@@ -141,6 +153,20 @@ section#wheretobuy .heading {
 	border-radius: 0;
 	color: #fff;
 	background-color: #3d67b1;
+}
+
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+	/*border-color: #00adee;*/
+	color: #fff;
+	/*background-color: #00adee;*/
+	background-color: #3d67b1;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #3d67b1;
 }
 
 /*Relax the top/bottom padding from BS 15px to accomodate logo*/
@@ -301,9 +327,31 @@ h4.media-heading {
 	margin: 34px 0px;
 }
 
+.media:first-child {
+    margin-top: 25px;
+}
+
+
 .media-left, .media>.pull-left {
     padding-right: 17px;
 }
+
+/*.owl-carousel .item {*/
+	/*height: 300px;*/
+	/*width: auto;*/
+/*}*/
+	
+/*.owl-carousel .owl-item {*/
+	/*height:400px;*/
+	/*[>width:100%;<]*/
+/*}*/
+
+/*.owl-carousel .item img {*/
+	/*[>height: 400px;<]*/
+	/*[>display: block;<]*/
+	/*width: auto;*/
+	/*margin: auto;*/
+/*}*/
 
 
 
