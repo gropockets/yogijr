@@ -146,6 +146,13 @@ section#header {
 	padding: 75px 0 30px;
 }
 
+
+@media(min-width:768px) {
+	section#header {
+		padding: 100px 0 65px;
+	}
+}
+
 .navbar-default {
 	background-color: #fff;
 	/*background-color: #3d67b1;*/
@@ -303,7 +310,7 @@ header {
 		line-height: 44px;
 		color: #3d67b1;
 		/*text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);*/
-		padding: 8px 110px 0px;
+		padding: 10px 110px 0px;
 		margin-bottom: 25px;
 	}
 
@@ -311,6 +318,7 @@ header {
 		color: #00adee;
 		font-family: "BPreplayBold";
 		font-size: 45px;
+		padding-top: 10px;
 	}
 }
 
@@ -376,6 +384,9 @@ h4.media-heading {
     margin-top: 25px;
 }
 
+#wheretobuy .media:first-child {
+    margin-top: 40px;
+}
 
 .media-left, .media>.pull-left {
     padding-right: 17px;
