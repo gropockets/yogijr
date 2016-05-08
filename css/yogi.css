@@ -22,9 +22,6 @@ p {
 	/*font-family: "BPreplayBold";*/
 }
 
-.intro-text .alternative-font {
-	font-size: 1.2em;
-}
 
 .arrow {
 	background: transparent url(../img/arrow.png) no-repeat 0 0;
@@ -141,13 +138,37 @@ section#wheretobuy .heading {
 	background-color: #00adee;
 }
 
+section {
+	padding: 75px 0 75px;
+}
+
+section#header {
+	padding: 75px 0 30px;
+}
 
 .navbar-default {
-	/*background-color: #fff;*/
-	background-color: #3d67b1;
+	background-color: #fff;
+	/*background-color: #3d67b1;*/
 	color: #fff;
 }
 
+.navbar-default .navbar-toggle {
+    border-color: #194086;
+    background-color: #3d67b1;
+}
+
+.navbar-default .navbar-toggle .collapsed { 
+    border-color: #194086;
+    background-color: #3d67b1;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #5C83C7;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
 
 .navbar-default .navbar-nav>.active>a {
 	border-radius: 0;
@@ -244,6 +265,30 @@ header {
     -o-background-size: cover;
 }
 
+.intro-text {
+	text-align: center;
+	padding-top: 15px;
+}
+
+.intro-text .intro-lead-in {
+	font-family: "Delicious-bold";
+	font-size: 30px;
+	line-height: 44px;
+	color: #3d67b1;
+	/*text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);*/
+	padding: 8px 20px 0px;
+	margin-bottom: 25px;
+}
+
+.intro-text h1.intro-slogan {
+	color: #00adee;
+	font-family: "BPreplayBold";
+	font-size: 35px;
+}
+
+.intro-text .alternative-font {
+	font-size: 1.2em;
+}
 
 @media(min-width:768px) {
 
@@ -336,6 +381,30 @@ h4.media-heading {
     padding-right: 17px;
 }
 
+
+footer span.copyright {
+    /*text-transform: uppercase;*/
+    text-transform: none;
+    /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    line-height: 40px;
+    color: #3d67b1;
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: #3d67b1;
+    /*background-color: #222;*/
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
 /*.owl-carousel .item {*/
 	/*height: 300px;*/
 	/*width: auto;*/
